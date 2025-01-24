@@ -235,6 +235,7 @@ oninput="x.value=parseInt(a.value)+parseInt(b.value)">
 <form action="/action_page.php">
     <label for="username">USERNAME</label>
     <input type="text" id="username" name="username"><br><br>
+    <input type="hidden" id="id" name="id" value="1">
     <label for="pass">PASSWORD</label>
     <input type="password" name="pass" id="pass"><br><br>
     <label for="color">colors</label>
@@ -245,6 +246,14 @@ oninput="x.value=parseInt(a.value)+parseInt(b.value)">
     <input type="datetime-local" name="d&t" id="d&t"><br><br>
     <label for="email">email</label>
     <input type="email" id="email" name="email"><br><br>
+    <label for="myfile">select file</label>
+    <input type="file" id="myfile" name="myfile"><br><br>
+    <label for="mon">mon year</label>
+    <input type="month" id="mon" name="mon"><br><br>
+    <label for="q">number</label>
+    <input type="number" id="q" name="q" min="1" max="10"><br><br>
+    <label for="s">search</label>
+    <input type="search" id="s" name="s"><br><br>
     <input type="submit" value="submit">
     <input type="reset" value="Reset">
 </form>
