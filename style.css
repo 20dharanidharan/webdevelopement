@@ -34,3 +34,9 @@ p.padding{
   padding-bottom: 50px;
   padding-left: 80px;
 }
+p.outline{
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color:purple ;
+    outline-offset: 6px;
+}
