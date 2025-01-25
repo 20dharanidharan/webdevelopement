@@ -1,3 +1,10 @@
 div{
     background-color: brown;
 }
+div{
+    background-image: url("image/carousel-2.jpg");
+}
+/*bg repeat : no repeat->no repeated img
+bg repeat : repeat-x;-> horizontally 
+bg attachment : fixed/scroll ;->fixed img is fixed when scroll
+but not in scroll type*/
