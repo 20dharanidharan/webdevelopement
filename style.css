@@ -18,3 +18,11 @@ p.solid{
     border-color: blue;
     border-radius: 3px;
 }
+p.margin{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
