@@ -40,3 +40,6 @@ p.outline{
     outline-color:purple ;
     outline-offset: 6px;
 }
+a:hover{
+    color: blueviolet;
+}
