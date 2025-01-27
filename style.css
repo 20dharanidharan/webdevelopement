@@ -98,3 +98,6 @@ p.overflow{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  a[target]{
+    background-color: aquamarine;
+  }
