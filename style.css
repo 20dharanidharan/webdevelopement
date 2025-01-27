@@ -43,3 +43,7 @@ p.outline{
 a:hover{
     color: blueviolet;
 }
+ul li{
+    background-color: blue;
+    color: aqua;
+}
