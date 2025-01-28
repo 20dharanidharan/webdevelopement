@@ -11,6 +11,7 @@ but not in scroll type*/
 p.dotted{
     border-style:dotted;
     border-right-style:solid ;
+    
 }
 p.solid{
     border-style:solid ;
@@ -108,4 +109,9 @@ p.overflow{
   h2::before {
     counter-increment: section;
     content: "Section " counter(section) ": ";
+  }
+  h2.img{
+    border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(image/carousel-2.jpg) 20 round;
   }
