@@ -189,3 +189,6 @@ p.overflow{
         background-color: #4CAF50;
         color: #f9f9f9;}
         .pagination a:hover:not(.active) {background-color: #ddd;}
+        div.newspaper{
+          column-count:4;
+        }
