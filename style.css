@@ -118,4 +118,8 @@ p.overflow{
   #grad1 {
     height: 200px;
     background-color: red;
-    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%)}
+    #shadow{
+      text-shadow: #ff0000 bisque;
+      box-shadow: 10px 15px blue;
+    }
