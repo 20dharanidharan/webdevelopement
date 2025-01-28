@@ -161,3 +161,7 @@ p.overflow{
         filter: blur(2px);  
   clip-path: circle(50% );
       }
+      img.objfit{
+        object-fit:scale-down;
+        object-position: 80% 100%;
+      }
