@@ -115,3 +115,7 @@ p.overflow{
   padding: 15px;
   border-image: url(image/carousel-2.jpg) 20 round;
   }
+  #grad1 {
+    height: 200px;
+    background-color: red;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
